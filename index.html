@@ -3,30 +3,571 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smile Dental Surgery | Family Dental Practice Kennington, London</title>
-  <meta name="description" content="Smile Dental Surgery is a long-standing, family-run dental practice in Kennington, London, offering exceptional NHS and private treatments for all ages.">
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Google Fonts -->
+  <title>Smile Dental Surgery | NHS &amp; Private Dentist in East Ham, London</title>
+  <meta name="description" content="Smile Dental Surgery is a husband-and-wife dental practice on Barking Road, East Ham. NHS and private treatment for all ages — warm, personal care from a small, long-trusted local team.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <!-- [TO CONFIRM: Final HTML structure and sections] -->
-  <header>
-    <div class="container">
-      <h1>Smile Dental Surgery</h1>
+  <!-- ============================ HEADER / NAV ============================ -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#hero" class="nav-logo" aria-label="Smile Dental Surgery — home">
+        <!-- Inline so the logo can inherit colour via currentColor -->
+        <svg viewBox="0 0 248 48" role="img" aria-label="Smile Dental Surgery" focusable="false">
+          <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 7c8 0 13 4 13 11 0 6-3 9-5 14-1.6 4-1.4 9-3.4 9-2.2 0-2.1-6-4.6-6s-2.4 6-4.6 6c-2 0-1.8-5-3.4-9-2-5-5-8-5-14 0-7 5-11 13-11Z"/>
+            <path d="M18.5 14.5c1.8-1.6 9.2-1.6 11 0" stroke-width="2"/>
+          </g>
+          <text x="50" y="22" font-family="'Inter', sans-serif" font-size="17" font-weight="700" letter-spacing="-0.3" fill="currentColor">Smile Dental Surgery</text>
+          <text x="50" y="38" font-family="'Inter', sans-serif" font-size="9" font-weight="600" letter-spacing="2" fill="currentColor" opacity="0.7">EAST HAM · LONDON</text>
+        </svg>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span>
+      </button>
+
+      <nav id="navLinks" class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#team">Team</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#find-us">Find us</a>
+        <a href="#booking" class="nav-cta">Book Appointment</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section id="hero">
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section id="hero" class="section section--cream hero">
       <div class="container">
-        <h2>Family Dental Practice in Kennington</h2>
+        <div class="hero-text">
+          <span class="eyebrow">NHS &amp; Private · East Ham, London</span>
+          <h1>Warm, family dental care in East Ham</h1>
+          <p class="hero-sub">A husband-and-wife practice on Barking Road, offering NHS and private treatment for all ages — with the kind of personal care you only get from a small, long-trusted local team.</p>
+          <div class="hero-cta">
+            <a href="#booking" class="btn btn-primary">Book Appointment</a>
+            <a href="tel:+442084711301" class="btn btn-secondary">Call us 020 8471 1301</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1100&q=70"
+               alt="Calm, bright, modern dental treatment room" width="1100" height="825">
+        </div>
       </div>
     </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section id="about" class="section section--cream about">
+      <div class="container">
+        <div class="about-text">
+          <span class="eyebrow">About the practice</span>
+          <h2>A husband-and-wife practice built on long-standing patient relationships</h2>
+          <!-- [TO CONFIRM: founding year / practice history — one review references attending since 2003] -->
+          <p>Smile Dental Surgery is a small, family practice in the heart of East Ham — led by husband-and-wife team Russ and Zak Sullman. We've been caring for patients here for over two decades, and many of our patients have been with us almost that long.</p>
+          <p>We offer both NHS and private treatment. Whether you need a routine check-up, a hygienist appointment, or more specialised care, we take time to listen, explain things clearly, and work at a pace that suits you.</p>
+          <p>Our practice is small by design — that means you'll be seen by people who know your name and your history. For nervous patients especially, that familiarity makes all the difference.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">💙</div>
+            <h3>Compassionate care</h3>
+            <p>A gentle, patient approach for every visit. We listen first and explain everything clearly before we begin.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🏠</div>
+            <h3>Husband-and-wife team</h3>
+            <p>Russ and Zak have run the practice together for over 20 years — a continuity of care that's rare in modern dentistry.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🦷</div>
+            <h3>NHS &amp; private treatment</h3>
+            <p>Flexible options to suit you, from routine NHS care to private hygienist appointments and specialised treatments.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📍</div>
+            <h3>Local East Ham practice</h3>
+            <p>Conveniently based on Barking Road in E6 — a familiar, friendly part of the community.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SERVICES ============================ -->
+    <section id="services" class="section section--cream services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our services</span>
+          <h2>A variety of available treatments</h2>
+          <p>Click any treatment to see what's involved and indicative pricing.</p>
+        </div>
+
+        <!-- [TO CONFIRM: that all listed services are offered, and the indicative private pricing.
+             The £45/£40 scale-and-polish prices came from a patient review and should be verified. -->
+        <div class="services-list" id="servicesList">
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-1" id="svc-1-btn">
+              <span>Check-ups &amp; dental care advice</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-1" role="region" aria-labelledby="svc-1-btn">
+              <div class="service-panel-inner">
+                <p>Routine examinations including X-rays where needed, plus personalised advice on brushing, flossing, and prevention.</p>
+                <p class="service-price">Private from £55.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> — £26.80.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-2" id="svc-2-btn">
+              <span>Scale and polish</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-2" role="region" aria-labelledby="svc-2-btn">
+              <div class="service-panel-inner">
+                <p>Professional hygienist cleaning to remove plaque and tartar. Recommended every 6–12 months.</p>
+                <p class="service-price">Private from £45 (first visit) / £40 (subsequent).</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> — £26.80 (when clinically necessary).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-3" id="svc-3-btn">
+              <span>Fillings</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-3" role="region" aria-labelledby="svc-3-btn">
+              <div class="service-panel-inner">
+                <p>Restorative treatments to repair damaged or decayed teeth, using tooth-coloured composite where possible.</p>
+                <p class="service-price">Private from £120.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-4" id="svc-4-btn">
+              <span>Root canal treatment</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-4" role="region" aria-labelledby="svc-4-btn">
+              <div class="service-panel-inner">
+                <p>Saving teeth affected by deep infection or decay, carried out gently and at your pace.</p>
+                <p class="service-price">Private from £450.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-5" id="svc-5-btn">
+              <span>Gum disease treatment</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-5" role="region" aria-labelledby="svc-5-btn">
+              <div class="service-panel-inner">
+                <p>Treatment of gum inflammation and periodontal disease, including deep cleaning where needed.</p>
+                <p class="service-price">Private from £100.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-6" id="svc-6-btn">
+              <span>Crowns and bridges</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-6" role="region" aria-labelledby="svc-6-btn">
+              <div class="service-panel-inner">
+                <p>Restorative work to repair or replace damaged teeth, designed to look and feel natural.</p>
+                <p class="service-price">Crowns from £600 · Bridges from £700 per unit.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 3</a> — £319.10.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service">
+            <button class="service-header" aria-expanded="false" aria-controls="svc-7" id="svc-7-btn">
+              <span>Tooth extractions</span>
+              <span class="service-chevron" aria-hidden="true">▼</span>
+            </button>
+            <div class="service-panel" id="svc-7" role="region" aria-labelledby="svc-7-btn">
+              <div class="service-panel-inner">
+                <p>Simple and surgical tooth removal, performed with care and clear aftercare guidance.</p>
+                <p class="service-price">Private from £150.</p>
+                <p class="service-nhs">NHS: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services-note">
+          <p>NHS treatments follow standard regulatory price bands:
+            <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> £26.80 ·
+            <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> £73.50 ·
+            <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 3</a> £319.10.</p>
+          <p>All prices and treatments are subject to assessment — please confirm at consultation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ REVIEWS ============================ -->
+    <section id="reviews" class="section section--cream reviews">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What our patients say</span>
+          <h2>5-star reviews from our patients</h2>
+          <p>Real reviews from our Google listing.</p>
+        </div>
+
+        <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Patient reviews">
+          <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous review">‹</button>
+
+          <div class="carousel-window" id="carouselWindow" aria-live="polite">
+            <article class="slide active">
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote>"Today was my first visit and the experience was excellent. The receptionist was extremely welcoming, kind, and professional, which immediately made me feel comfortable. The hygienist and nurse were both outstanding — very attentive, and provided an exceptional level of care throughout. Everything was explained clearly."</blockquote>
+              <cite>Oli M. — 5 out of 5 stars</cite>
+            </article>
+            <article class="slide">
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote>"I have been with this dentist for many years — they are absolutely brilliant and kind, caring people. Russ is such a humble dentist; he has always given me the best advice regarding my teeth. Zak is so professional and thoughtful too. Heather on reception is lovely, friendly, and a good laugh. The best dental care."</blockquote>
+              <cite>A long-term patient — 5 out of 5 stars</cite>
+            </article>
+            <article class="slide">
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote>"Forget trying to win the lottery — you have won the jackpot with this dental practice. Totally wholesome and honest professionalism that can't be surpassed. They've got more professionalism and calibre in their little toe than the dental industry in its entirety."</blockquote>
+              <cite>An enthusiastic patient — 5 out of 5 stars</cite>
+            </article>
+            <article class="slide">
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote>"The dentist is really friendly, professional, and insightful — ready to answer any questions, always with a positive attitude. The hygienist did a brilliant job, letting me know the details of the procedure beforehand. The receptionist was also very good, booking me in last minute on the same day. Brilliant service all round."</blockquote>
+              <cite>A first-time visitor — 5 out of 5 stars</cite>
+            </article>
+            <article class="slide">
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote>"We have been going to Smile Dentist for years. The service is always perfect. Heather at reception is so welcoming and helpful. The dentists — Russ and Zak — are just so patient and caring. Myself and family would recommend this dental practice to everyone."</blockquote>
+              <cite>A family patient — 5 out of 5 stars</cite>
+            </article>
+          </div>
+
+          <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next review">›</button>
+
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose a review"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TEAM ============================ -->
+    <section id="team" class="section section--white team">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Meet the team</span>
+          <h2>Experienced team to look after you</h2>
+          <!-- [TO CONFIRM: real bios and photos for each team member; full names for Heather and the nurses] -->
+          <p>[TO CONFIRM: real bios and photos for each team member]</p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=70" alt="Portrait of Dr Russell Sullman, Principal Dentist" width="400" height="400" loading="lazy">
+            <h3>Dr Russell Sullman ("Russ")</h3>
+            <p class="team-role">Principal Dentist</p>
+            <p class="team-bio"><em>20+ years at the practice — bio TBC.</em></p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=70" alt="Portrait of Zakia Sullman, Dental Therapist and Hygienist" width="400" height="400" loading="lazy">
+            <h3>Zakia Sullman ("Zak")</h3>
+            <p class="team-role">Dental Therapist &amp; Hygienist</p>
+            <p class="team-bio"><em>Partner in life and practice — bio TBC.</em></p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=70" alt="Portrait of Heather, Receptionist" width="400" height="400" loading="lazy">
+            <h3>Heather</h3>
+            <p class="team-role">Receptionist</p>
+            <p class="team-bio"><em>Full name and bio TBC — described by patients as warm, welcoming, and "a good laugh".</em></p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=400&q=70" alt="Portrait of a member of the dental nursing team" width="400" height="400" loading="lazy">
+            <h3>Dental Nurse</h3>
+            <p class="team-role">Dental Nurse</p>
+            <p class="team-bio"><em>Name and bio TBC.</em></p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&w=400&q=70" alt="Portrait of a member of the dental nursing team" width="400" height="400" loading="lazy">
+            <h3>Dental Nurse</h3>
+            <p class="team-role">Dental Nurse</p>
+            <p class="team-bio"><em>Name and bio TBC.</em></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FAQs ============================ -->
+    <section id="faqs" class="section section--cream faqs">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Questions &amp; answers</span>
+          <h2>Frequently asked questions</h2>
+        </div>
+
+        <div class="faq-list" id="faqList">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+              How much do treatments cost?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-1" role="region" aria-labelledby="faq-1-btn">
+              <div class="faq-answer-inner">We offer both NHS and private treatment. NHS pricing follows the standard NHS dental bands (Band 1, 2, or 3). Private prices vary — see our Services section above for indicative pricing, or get in touch for a personalised quote.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+              Do you offer NHS and private treatment?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-2" role="region" aria-labelledby="faq-2-btn">
+              <div class="faq-answer-inner">Yes. Whether you need routine NHS care or private treatment for more specialised options, we can help. Please ask reception about availability when booking.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+              I'm nervous about visiting the dentist — how do you help?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-3" role="region" aria-labelledby="faq-3-btn">
+              <div class="faq-answer-inner">Many of our patients are nervous or have a dental phobia. We take time to listen, explain everything before we do it, and proceed at your pace. Pain management is always a priority. You're in safe, understanding hands.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+              What should I do in a dental emergency?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-4-btn">
+              <div class="faq-answer-inner">Please call us as early in the day as possible on 020 8471 1301. We do our best to fit emergency appointments into the day. Outside opening hours, please call NHS 111 for advice.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+              What happens at my first visit?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-5-btn">
+              <div class="faq-answer-inner">Your first appointment is a comprehensive check-up. We review your medical and dental history, examine your teeth and gums, take X-rays if needed, and discuss any treatment options with you clearly and without pressure.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <!-- [TO CONFIRM: whether currently accepting new patients] -->
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">
+              Are you accepting new patients?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-6" role="region" aria-labelledby="faq-6-btn">
+              <div class="faq-answer-inner">[TO CONFIRM with client] — We welcome new patients. Please call reception to check current availability.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">
+              How often should I have a check-up?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-7" role="region" aria-labelledby="faq-7-btn">
+              <div class="faq-answer-inner">For most patients, every 6 to 12 months. Your dentist will recommend an interval based on your individual oral health.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-8" id="faq-8-btn">
+              Do you treat children?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-8" role="region" aria-labelledby="faq-8-btn">
+              <div class="faq-answer-inner">Yes — we are a family practice and treat patients of all ages.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ BOOKING ============================ -->
+    <section id="booking" class="section section--cream booking">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Book an appointment</span>
+          <h2>Request an appointment</h2>
+          <p>Fill in your details and we'll be in touch to confirm. Fields marked * are required.</p>
+        </div>
+
+        <div class="booking-card">
+          <!-- [TO CONFIRM: real email recipient. Form posts to a shared Formspree pitch endpoint. -->
+          <form id="bookingForm" action="https://formspree.io/f/mqeopwwg" method="POST" novalidate>
+            <div class="field">
+              <label for="bf-name">Full name <span class="req">*</span></label>
+              <input type="text" id="bf-name" name="name" autocomplete="name" required placeholder=" ">
+            </div>
+            <div class="field">
+              <label for="bf-email">Email <span class="req">*</span></label>
+              <input type="email" id="bf-email" name="email" autocomplete="email" required placeholder=" ">
+            </div>
+            <div class="field">
+              <label for="bf-phone">Phone <span class="req">*</span></label>
+              <input type="tel" id="bf-phone" name="phone" autocomplete="tel" required placeholder=" ">
+            </div>
+            <div class="field">
+              <label for="bf-when">Preferred date &amp; time</label>
+              <input type="text" id="bf-when" name="preferred_time" placeholder="e.g. weekday afternoons">
+            </div>
+            <div class="field">
+              <label for="bf-type">NHS or private <span class="req">*</span></label>
+              <select id="bf-type" name="nhs_or_private" required>
+                <option value="" disabled selected>Please choose…</option>
+                <option value="NHS">NHS</option>
+                <option value="Private">Private</option>
+                <option value="Not sure">Not sure</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bf-message">Message</label>
+              <textarea id="bf-message" name="message" rows="4" placeholder="Anything you'd like us to know (optional)"></textarea>
+            </div>
+
+            <input type="hidden" name="_subject" value="New enquiry from Smile Dental Surgery site">
+
+            <p class="form-error" id="formError" role="alert" hidden></p>
+            <button type="submit" class="btn btn-primary">Send enquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FIND US ============================ -->
+    <section id="find-us" class="section section--white findus">
+      <div class="container">
+        <div class="findus-text">
+          <div class="section-head" style="text-align:left;margin-left:0;">
+            <span class="eyebrow">Find us</span>
+            <h2>Visit the practice</h2>
+          </div>
+
+          <div class="contact-block">
+            <h3>Smile Dental Surgery</h3>
+            <p class="contact-label">Address</p>
+            <p class="contact-value">270 Barking Road,<br>London E6 3BA</p>
+
+            <p class="contact-label">Phone</p>
+            <p class="contact-value"><a href="tel:+442084711301">020 8471 1301</a></p>
+
+            <p class="contact-label">Email</p>
+            <!-- [TO CONFIRM: real email address] -->
+            <p class="contact-value"><a href="mailto:contact@smiledentalsurgery.co.uk">contact@smiledentalsurgery.co.uk</a></p>
+
+            <p class="contact-label">Opening hours</p>
+            <div class="hours-row"><span>Monday</span><span>9:00am – 1:00pm, 2:00 – 4:00pm</span></div>
+            <div class="hours-row"><span>Tuesday – Friday</span><span>9:00am – 1:00pm, 2:00 – 5:00pm</span></div>
+            <div class="hours-row"><span>Saturday &amp; Sunday</span><span>Closed</span></div>
+            <p class="hours-note">Closed for lunch 1:00 – 2:00pm every day. Monday closes earlier, at 4:00pm.</p>
+          </div>
+        </div>
+
+        <div class="map-wrap" id="mapWrap" data-map-src="https://www.google.com/maps?q=270+Barking+Road,+London+E6+3BA&output=embed">
+          <div class="map-placeholder" id="mapPlaceholder">
+            <h3>Interactive map</h3>
+            <p>The map is hidden until you accept cookies, because Google Maps may set cookies.</p>
+            <button type="button" class="btn btn-primary" id="mapAccept">Accept cookies &amp; show map</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-logo">
+            <svg viewBox="0 0 248 48" role="img" aria-label="Smile Dental Surgery" focusable="false">
+              <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M24 7c8 0 13 4 13 11 0 6-3 9-5 14-1.6 4-1.4 9-3.4 9-2.2 0-2.1-6-4.6-6s-2.4 6-4.6 6c-2 0-1.8-5-3.4-9-2-5-5-8-5-14 0-7 5-11 13-11Z"/>
+                <path d="M18.5 14.5c1.8-1.6 9.2-1.6 11 0" stroke-width="2"/>
+              </g>
+              <text x="50" y="22" font-family="'Inter', sans-serif" font-size="17" font-weight="700" letter-spacing="-0.3" fill="currentColor">Smile Dental Surgery</text>
+              <text x="50" y="38" font-family="'Inter', sans-serif" font-size="9" font-weight="600" letter-spacing="2" fill="currentColor" opacity="0.7">EAST HAM · LONDON</text>
+            </svg>
+          </span>
+          <p class="footer-tagline">Warm, family dental care in East Ham — NHS &amp; private treatment for all ages.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>270 Barking Road, London E6 3BA</p>
+          <p><a href="tel:+442084711301">020 8471 1301</a></p>
+          <p><a href="mailto:contact@smiledentalsurgery.co.uk">contact@smiledentalsurgery.co.uk</a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Opening hours</h4>
+          <p>Mon: 9:00am – 1:00pm, 2:00 – 4:00pm</p>
+          <p>Tue–Fri: 9:00am – 1:00pm, 2:00 – 5:00pm</p>
+          <p>Sat &amp; Sun: Closed</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Practice</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#booking">Book Appointment</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <!-- [TO CONFIRM: GDC registration numbers for each clinician; complaints procedure detail] -->
+        <p>[GDC registered. GDC numbers to be confirmed. Complaints procedure available on request.]</p>
+        <p>© 2026 Smile Dental Surgery. All rights reserved. This is a pitch template; some details are placeholders to be confirmed with the client.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Persistent Book button -->
+  <a href="#booking" class="btn btn-primary book-float" id="bookFloat">Book Appointment</a>
+
+  <!-- Cookie consent banner -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent" aria-live="polite" hidden>
+    <p>We use minimal cookies to help our Google Maps embed work.</p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-primary" id="cookieAccept">Accept</button>
+      <button type="button" class="btn btn-secondary" id="cookieDecline">Decline</button>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
