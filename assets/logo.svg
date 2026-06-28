@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="100%" height="100%">
+  <!-- Definitions for clean styling -->
+  <defs>
+    <style>
+      .logo-icon { fill: none; stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .logo-text-bold { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 20px; fill: #1e293b; }
+      .logo-text-sub { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 11px; fill: #64748b; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- Minimalist Geometric Tooth Icon -->
+  <g transform="translate(10, 15)">
+    <!-- Main monoline crown and roots outline -->
+    <path class="logo-icon" d="M 25,5 C 38,5 45,9 45,22 C 45,35 41,38 37,45 C 34,50 33,52 33,58 C 33,60 31,62 29,62 C 27,62 25,60 25,54 C 25,60 23,62 21,62 C 19,62 17,60 17,58 C 17,52 16,50 13,45 C 9,38 5,35 5,22 C 5,9 12,5 25,5 Z" />
+    
+    <!-- Central geometric micro-accent (represents shining light or clean facet) -->
+    <path class="logo-icon" d="M 21,18 L 25,14 L 29,18" stroke-width="2" />
+  </g>
+
+  <!-- Branding Text -->
+  <g transform="translate(80, 40)">
+    <text class="logo-text-bold" x="0" y="0">Smile Dental Surgery</text>
+    <text class="logo-text-sub" x="0" y="18">DENTAL CLINIC</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+/* 
+   Smile Dental Surgery Website
+   ============================
+   Design System & Core Styling
+*/
+
+/* --- Design System Tokens --- */
+:root {
+  /* Colors */
+  --color-primary: #1e293b;       /* Trustworthy Navy */
+  --color-primary-light: #38bdf8; /* Soft Blue accent */
+  --color-accent: #0f172a;        /* Deep Midnight */
+  --color-bg-light: #faf9f6;      /* Off-white / Cream */
+  --color-bg-white: #ffffff;
+  --color-text-dark: #1e293b;
+  --color-text-light: #64748b;
+  --color-border: #e2e8f0;
+  
+  /* Fonts */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Layout */
+  --header-height: 80px;
+  --max-width: 1200px;
+}
+
+/* [TO CONFIRM: Design elements, custom fonts, exact colors with client] */
+
+/* --- CSS Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Skeleton styling placeholder */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
