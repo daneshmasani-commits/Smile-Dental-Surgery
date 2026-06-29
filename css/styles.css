@@ -401,6 +401,7 @@ h4 { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: upp
   min-height: 240px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 @media (min-width: 768px) { .carousel-window { padding: 48px; } }
 
